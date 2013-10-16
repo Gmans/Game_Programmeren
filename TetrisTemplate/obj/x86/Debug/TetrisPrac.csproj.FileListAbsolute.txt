@@ -10,3 +10,15 @@ C:\Users\Koning\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\
 C:\Users\Koning\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\GameGradient.xnb
 C:\Users\Koning\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\GameHUD.xnb
 C:\Users\Koning\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\SmallBlock.xnb
+C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\SpelFont.xnb
+C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\block.xnb
+C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\EmptyBlock.xnb
+C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\GameGradient.xnb
+C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\GameHUD.xnb
+C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\SmallBlock.xnb
+C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\TetrisPrac.exe
+C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\TetrisPrac.pdb
+C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\obj\x86\Debug\TetrisPrac.csprojResolveAssemblyReference.cache
+C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\obj\x86\Debug\TetrisPrac.exe
+C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\obj\x86\Debug\TetrisPrac.pdb

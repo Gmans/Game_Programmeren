@@ -74,6 +74,8 @@ namespace TetrisPrac
 
         public void Reset()
         {
+            timeToMove = 0.25d;
+            blockCount = 0;
             Clear();
             ResetActiveBlock();
             gameOver = false;
@@ -128,7 +130,7 @@ namespace TetrisPrac
             }
 
             
-            //timeToMove = 0.25d - (blockCount / 2)*0.05;
+            timeToMove = 0.25d - (blockCount / 10)*0.035;
         }
 
         public void checkRows()
@@ -290,17 +292,59 @@ namespace TetrisPrac
                     putBlockInGrid();
                 }
             }
+            
+            if (inputHelper.KeyPressed(Keys.NumPad1, false))
+            {
+                nextBlock = new TallBlock(gridBlockTex);
+            }
 
-            /*
+            if (inputHelper.KeyPressed(Keys.NumPad2, false))
+            {
+                nextBlock = new JBlock(gridBlockTex);
+            }
+
+            if (inputHelper.KeyPressed(Keys.NumPad3, false))
+            {
+                nextBlock = new LBlock(gridBlockTex);
+            }
+
+            if (inputHelper.KeyPressed(Keys.NumPad4, false))
+            {
+                nextBlock = new TBlock(gridBlockTex);
+            }
+
+            if (inputHelper.KeyPressed(Keys.NumPad5, false))
+            {
+                nextBlock = new SBlock(gridBlockTex);
+            }
+
+            if (inputHelper.KeyPressed(Keys.NumPad6, false))
+            {
+                nextBlock = new ZBlock(gridBlockTex);
+            }
+
+            if (inputHelper.KeyPressed(Keys.NumPad8, false))
+            {
+                nextBlock = new SquareBlock(gridBlockTex);
+            }
+            
             if (inputHelper.IsKeyDown(Keys.Down))
             {
+                if (timeToMove >= 0.10d)
                 timeToMove = 0.10d;
             }
             else 
             {
-                timeToMove = 0.25d;
+                if (blockCount < 10)
+                {
+                    timeToMove = 0.25d;
+                }
+                else
+                {
+                    timeToMove = 0.25d - (blockCount / 10) * 0.035;
+                }
             }
-            */
+            
         }
 
         public void ResetActiveBlock()

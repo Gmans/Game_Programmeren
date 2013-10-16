@@ -1,5 +1,5 @@
-Content\block.xnb
 Content\SpelFont.xnb
+Content\block.xnb
 Content\EmptyBlock.xnb
 Content\GameGradient.xnb
 Content\GameHUD.xnb

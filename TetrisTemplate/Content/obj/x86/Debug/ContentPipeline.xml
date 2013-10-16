@@ -2,22 +2,22 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>block.png</Source>
-      <Name>block</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Koning\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\block.xnb</Output>
-      <Time>2013-10-16T11:58:32.1699983+02:00</Time>
-    </Item>
-    <Item>
       <Source>SpelFont.spritefont</Source>
       <Name>SpelFont</Name>
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Koning\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\SpelFont.xnb</Output>
-      <Time>2010-09-18T17:04:46+02:00</Time>
+      <Output>C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\SpelFont.xnb</Output>
+      <Time>2013-10-02T13:34:59.791368+02:00</Time>
+    </Item>
+    <Item>
+      <Source>block.png</Source>
+      <Name>block</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\block.xnb</Output>
+      <Time>2013-10-16T13:50:57.2690262+02:00</Time>
     </Item>
     <Item>
       <Source>EmptyBlock.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Koning\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\EmptyBlock.xnb</Output>
-      <Time>2013-10-16T11:56:52.8472289+02:00</Time>
+      <Output>C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\EmptyBlock.xnb</Output>
+      <Time>2013-10-16T13:50:57.2600196+02:00</Time>
     </Item>
     <Item>
       <Source>GameGradient.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Koning\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\GameGradient.xnb</Output>
-      <Time>2013-10-16T11:47:54.0173395+02:00</Time>
+      <Output>C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\GameGradient.xnb</Output>
+      <Time>2013-10-16T13:50:57.2610214+02:00</Time>
     </Item>
     <Item>
       <Source>GameHUD.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Koning\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\GameHUD.xnb</Output>
-      <Time>2013-10-16T11:47:19.9187549+02:00</Time>
+      <Output>C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\GameHUD.xnb</Output>
+      <Time>2013-10-16T13:50:57.2660242+02:00</Time>
     </Item>
     <Item>
       <Source>SmallBlock.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Koning\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\SmallBlock.xnb</Output>
-      <Time>2013-10-16T11:55:15.3178954+02:00</Time>
+      <Output>C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\SmallBlock.xnb</Output>
+      <Time>2013-10-16T13:50:57.2670254+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -61,10 +61,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Koning\Documents\GitHub\Game_Programmeren\TetrisTemplate\Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Koning\Documents\GitHub\Game_Programmeren\TetrisTemplate\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Koning\Documents\GitHub\Game_Programmeren\TetrisTemplate\Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Koning\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Yoni\Documents\GitHub\Game_Programmeren\TetrisTemplate\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -93,7 +93,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2013-09-06T16:53:55.7222081+02:00</Value>
+        <Value>2013-09-16T14:08:43.3685756+02:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
